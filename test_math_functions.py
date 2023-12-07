@@ -20,3 +20,11 @@ def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
 
+def test_calc_square_root():
+    output = square_root_numbers(4)
+    assert output == 2
+
+def test_calc_power():
+    output = power_of_numbers(3, 3)
+    assert output == 27
+
